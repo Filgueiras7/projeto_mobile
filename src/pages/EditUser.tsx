@@ -5,7 +5,7 @@ const EditUser = () => {
   const authContext = useContext(AuthContext);
 
   if (!authContext) {
-    return null; // ou uma mensagem de erro adequada
+    return null;
   }
 
   const { usuario, setUsuario } = authContext;
